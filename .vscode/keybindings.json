@@ -1,0 +1,20 @@
+// Place your key bindings in this file to override the defaults
+[
+{
+"key": "ctrl+alt+c",
+"command": "workbench.action.tasks.runTask",
+"args": "Compile C",
+"when": "resourceExtname == .c"
+},
+{
+"key": "ctrl+alt+c",
+"command": "workbench.action.tasks.runTask",
+"args": "Compile C++",
+"when": "resourceExtname == .cpp"
+},
+{
+"key": "ctrl+alt+r",
+"command": "workbench.action.tasks.runTask",
+"args": "Run Exe"
+}
+]
